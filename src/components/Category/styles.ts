@@ -1,39 +1,49 @@
-//Propriedades do botão
-
 import { StyleSheet } from 'react-native';
 import { theme } from '../../global/styles/theme';
 
-export const styles = StyleSheet.create ({
+export const styles = StyleSheet.create({
     container: {
-        width: '100%',
-        height: 56,
-        backgroundColor: theme.colors.primary,
-        borderRadius: 8,
-        flexDirection: 'row',
-        alignItems: 'center',
-        
-    },
-
-    title:{
-        flex: 1,
-        color: theme.colors.heading,
-        fontSize: 15,
-        textAlign: 'center',
-        
-    },
-
-    iconWrapper: {
-        width: 56,
-        height: 56,
+        width: 104,
+        height: 120,
         justifyContent: 'center',
         alignItems: 'center',
-        borderRightWidth: 1,
-        borderColor: theme.colors.line,
+        borderRadius: 8,
+        marginRight: 8,
     },
-    
-    icon: {
-        width: 24,
-        height: 18
+    content: {
+        width: 100,
+        height: 116,
+        backgroundColor: theme.colors.secondary40,
+        borderRadius: 8,
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        paddingVertical: 7,
+
+    },
+
+    title: {
+        fontFamily: theme.fonts.title700,
+        color: theme.colors.heading,
+        fontSize: 15,
+    },
+    check: {
+        width: 12,
+        height: 12,
+        backgroundColor: theme.colors.secondary100,
+        alignSelf: 'flex-end',
+        marginRight: 7,
+        borderColor: theme.colors.secondary100,
+        borderWidth: 2,
+        borderRadius: 3,
+    },
+    checked: {
+        width: 10,
+        height: 10,
+        backgroundColor: theme.colors.primary,
+        alignSelf: 'flex-end',
+        marginRight: 7,
+        borderRadius: 3,
     }
+
 
 });
