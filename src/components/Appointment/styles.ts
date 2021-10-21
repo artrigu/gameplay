@@ -14,7 +14,8 @@ export const styles = StyleSheet.create({
     header: {
         width: '100%',
         flexDirection: 'row',
-        marginBottom: 12
+        marginBottom: 12,
+        justifyContent: 'space-between'
     },
     title: {
         fontFamily: theme.fonts.title700,
@@ -22,7 +23,7 @@ export const styles = StyleSheet.create({
         fontSize: 18
     },
     category: {
-        fontFamily: theme.fonts.text400;
+        fontFamily: theme.fonts.text400,
         color: theme.colors.highlight,
         fontSize: 13,
         marginRight: 24

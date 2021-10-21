@@ -3,7 +3,7 @@ import { RectButton, RectButtonProps } from 'react-native-gesture-handler';
 import { View, Text } from 'react-native';
 
 import PlayerSvg from '../../assets/player.svg';
-import CalenderSvg from '../../assets/calender.svg';
+import CalenderSvg from '../../assets/calendar.svg';
 
 import { styles } from './styles';
 import { GuildIcon } from "../GuildIcon";

@@ -5,7 +5,7 @@ import { styles } from "./styles"
 
 
 export function GuildIcon() {
-    const uri = 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Valorant_logo_-_pink_color_version.svg/1280px-Valorant_logo_-_pink_color_version.svg.png'
+    const uri = 'https://seeklogo.com/images/V/valorant-logo-FAB2CA0E55-seeklogo.com.png'
     return (
 
         <Image

@@ -13,11 +13,13 @@ const { Navigator, Screen } = createStackNavigator();
 export function AuthRoutes() {
     return (
         <Navigator
-            headerMode="none"
             screenOptions={{
+                headerShown: false,
                 cardStyle: {
-                    backgroundColor: theme.colors.secondary70
+                    backgroundColor: theme.colors.secondary70,
+
                 }
+
             }}
         >
             <Screen
