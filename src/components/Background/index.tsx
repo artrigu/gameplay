@@ -10,12 +10,12 @@ type Props = {
 }
 
 export function Background({ children }: Props) {
-    const { secondary30, secondary100 } = theme.colors;
+    const { secondary30, secondary90 } = theme.colors;
 
     return (
         <LinearGradient
             style={styles.container}
-            colors={[secondary30, secondary100]}
+            colors={[secondary30, secondary90]}
         >
             {children}
         </LinearGradient>
