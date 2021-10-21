@@ -20,6 +20,7 @@ export function CategorySelect({ categorySelected, setCategory }: Props) {
             horizontal
             style={styles.container}
             showsVerticalScrollIndicator={false}
+            showsHorizontalScrollIndicator={false}
             contentContainerStyle={{ paddingRight: 40 }}
         >
             {
