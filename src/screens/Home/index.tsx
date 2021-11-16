@@ -1,3 +1,4 @@
+import { useNavigation } from '@react-navigation/native';
 import React, { useState } from 'react';
 import { View, FlatList, Text } from 'react-native';
 import { Appointment } from '../../components/Appointment';
@@ -13,6 +14,8 @@ import { styles } from './styles'
 
 export function Home() {
     const [category, setCategory] = useState('')
+
+    const navigation = useNavigation();
 
     const appointments = [
         {
@@ -58,6 +61,7 @@ export function Home() {
     }
 
     function handleAppointmentDatails() {
+        navigation.navigate('AppointmentDetails');
 
     }
     return (
